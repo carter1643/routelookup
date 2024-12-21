@@ -1,0 +1,50 @@
+[project]
+name = "routelookup"
+version = "1.0.1"
+dependencies = []
+requires-python = ">=3.10"
+authors = [
+  {email = "carter1643@pm.me"},
+]
+maintainers = [
+  {email = "carter1643@pm.me"},
+]
+description = "Routing table-style IP prefix lookups"
+readme = "README.md"
+license = {file = "LICENSE"}
+keywords = ["cidr", "ip", "lookup", "prefix", "route", "routing table"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Developers",
+  "Intended Audience :: Telecommunications Industry",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Topic :: System :: Networking"
+]
+
+[project.urls]
+source = "https://github.com/carter1643/routelookup"
+
+[tool.poetry]
+name = "routelookup"
+version = "1.0.1"
+description = ""
+authors = ["carter1643 <carter1643@pm.me>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.13.0"
+pytricia = {git = "https://github.com/jsommers/pytricia.git"}
+twine = "^6.0.1"
+netaddr = "^1.3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
