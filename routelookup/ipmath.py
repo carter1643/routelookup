@@ -1,6 +1,7 @@
 from itertools import takewhile
 from typing import Iterable
 
+# noinspection PyProtectedMember
 from routelookup.python_ipaddress import _net_to_str, _net_to_str_v6
 from routelookup.typehints import IPVersion
 
