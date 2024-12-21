@@ -1,6 +1,6 @@
 [project]
 name = "routelookup"
-version = "1.0.1"
+version = "1.0.2"
 dependencies = []
 requires-python = ">=3.10"
 authors = [
@@ -32,7 +32,7 @@ source = "https://github.com/carter1643/routelookup"
 [tool.poetry]
 name = "routelookup"
 version = "1.0.1"
-description = ""
+description = "Routing table-style IP prefix lookups"
 authors = ["carter1643 <carter1643@pm.me>"]
 readme = "README.md"
 
